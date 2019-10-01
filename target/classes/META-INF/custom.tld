@@ -1,0 +1,16 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Tag Lib Demo</short-name>
+    <uri>http://com.tanwisharma.tags</uri>
+    <tag>
+        <name>Hello</name>
+        <tag-class>com.tanwisharma.customtags.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>DateTimeTag</name>
+        <tag-class>com.tanwisharma.customtags.DayTimeTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+</taglib>
